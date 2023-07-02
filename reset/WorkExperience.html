@@ -5,41 +5,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
   <title>My Website</title>
 </head>
 
 <body>
-  <div class="class">
-    <!-- Header -->
-    <section id="header">
-      <div class="header container">
-        <div class="nav-bar">
-          <div class="brand">
-            <a href="#hero">
-              <h1><span>S</span>udip <span>S</span>apkota</h1>
-            </a>
-          </div>
-          <div class="nav-list">
-            <div class="hamburger">
-              <div class="bar"></div>
-            </div>
-            <ul>
-              <li><a href="home.html" data-after="Home">Home</a></li>
-              <li><a href="portfolio.html" data-after="Portfolio">Portfolio</a></li>
-              <li><a href="Contact.html" data-after="Contact">Contact</a></li>
-              <li><a href="WorkExperience.html" data-after="WorkExperience">WorkExperience</a></li>
-              <li><a href="SiteReport.html" data-after="SiteReport">SiteReport</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Header -->
+ 
+     
+ 
 
+      <header>
+          <nav>
+              <ul class='nav-bar'>
+                <div class="brand">
+                  <h1><span>S</span>udip <span>S</span>apkota</h1>
+                </div>
+                  <input type='checkbox' id='check' />
+                  <span class="menu">
+                      <li><a href="home.html">Home</a></li>
+                      <li><a href="portfolio.html">Portfolio</a></li>
+                      <li><a href="Contact.html">Contact</a></li>
+                      <li><a href="WorkExperience.html">Work Experience</a></li>
+                      <li><a href="SiteReport.html">Site Report</a></li>
+                      <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                  </span>
+                  <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+              </ul>
+          </nav>
+      </header>
+  
 
+  
+  <!-- End Header -->
 
-    <!-- workexperience -->
-
+    <!-- Work Experience -->
+    <br>
+    <br>
+    <br>
+    <br>
 
     <div class="company-name">Microsoft Company</div>
 
@@ -66,7 +70,7 @@
           environment, and deliver software products in a timely manner.</p>
       </div>
       <div class="work-image">
-        <img src="./images/bg11.jpg"  alt="Microsoft Office" />
+        <img src="./images/bg11.jpg" alt="Microsoft Office">
       </div>
     </div>
 
@@ -76,32 +80,28 @@
 
     <div class="image-grid">
       <div class="team-member">
-        <img src="./images/11.png" alt="Bill Gates" />
+        <img src="./images/11.png" alt="Bill Gates">
         <div class="overlay">
           <p>Bill Gates, in full William Henry Gates III, is an American computer programmer and entrepreneur who
             co-founded Microsoft Corporation, the world's largest personal-computer software company.</p>
         </div>
       </div>
       <div class="team-member">
-        <img src="./images/22.png" alt="Satya Nadella" />
+        <img src="./images/22.png" alt="Satya Nadella">
         <div class="overlay">
           <p>Satya Narayana Nadella is an Indian-American business executive. He is the executive chairman and CEO of
             Microsoft, succeeding Steve Ballmer in 2014 as CEO.</p>
         </div>
       </div>
       <div class="team-member">
-        <img src="./images/1.jpg" alt="Sudip Sapkota" />
+        <img src="./images/1.jpg" alt="Sudip Sapkota">
         <div class="overlay">
           <p>Sudip Sapkota is a Nepali-American coder and entrepreneur. He is the epitome of an explorer, avid reader of
             scriptures, and a passionate lover of nature's beauty.</p>
         </div>
       </div>
     </div>
-
-
-
-    <!-- end workexperience -->
-
+    <!-- End Work Experience -->
 
     <!-- Footer -->
     <section id="footer">
@@ -112,17 +112,16 @@
         <h2>Web design and development solution</h2>
         <div class="social-icon">
           <div class="social-item">
-            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="Facebook"></a>
           </div>
           <div class="social-item">
-            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" alt="Instagram"></a>
           </div>
-
           <div class="social-item">
-            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" alt="Behance"></a>
           </div>
         </div>
-        <p>Copyright © 2022 Sudip. All rights reserved</p>
+        <p>&copy; 2022 Sudip. All rights reserved</p>
       </div>
     </section>
     <!-- End Footer -->

@@ -5,50 +5,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
   <title>My Website</title>
 </head>
 
 <body>
-  <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1><span>S</span>udip <span>S</span>apkota</h1>
-          </a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
-            
-          </div>
-          <ul>
-            <li><a href="home.html" data-after="Home">Home</a></li>
-            <li><a href="portfolio.html" data-after="Portfolio">Portfolio</a></li>
-            <li><a href="Contact.html" data-after="Contact">Contact</a></li>
-            <li><a href="WorkExperience.html" data-after="WorkExperience">WorkExperience</a></li>
-            <li><a href="SiteReport.html" data-after="SiteReport">SiteReport</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
+     
+ 
+
+      <header>
+          <nav>
+              <ul class='nav-bar'>
+                <div class="brand">
+                  <h1><span>S</span>udip <span>S</span>apkota</h1>
+                </div>
+                  <input type='checkbox' id='check' />
+                  <span class="menu">
+                      <li><a href="home.html">Home</a></li>
+                      <li><a href="portfolio.html">Portfolio</a></li>
+                      <li><a href="Contact.html">Contact</a></li>
+                      <li><a href="WorkExperience.html">Work Experience</a></li>
+                      <li><a href="SiteReport.html">Site Report</a></li>
+                      <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                  </span>
+                  <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+              </ul>
+          </nav>
+      </header>
+  
+
+  
   <!-- End Header -->
 
 
-  <!-- Hero Section  -->
+  <!-- Hero Section -->
   <section id="hero">
     <div class="hero container">
       <div>
         <h1>Hello, <span></span></h1>
         <h1>My Name is <span></span></h1>
         <h1>Sudip <span></span></h1>
-        <a href="#projects" type="button" class="cta">Portfolio</a>
+        <a href="#projects" class="cta">Portfolio</a>
+
       </div>
     </div>
   </section>
-  <!-- End Hero Section  -->
+  <!-- End Hero Section -->
 
 
   <!-- About Section -->
@@ -61,10 +65,8 @@
       </div>
       <div class="col-right">
         <h1 class="section-title">About <span>me</span></h1>
-        <h2>programmer</h2>
-        <p>I have a deep passion for exploring new destinations and immersing myself in different cultures, as travel is an integral part of my life. Whether it's wandering through ancient ruins or trekking in serene landscapes, the thrill of discovering the unknown fills me with exhilaration. On the other hand, the sound of a football meeting my foot, the camaraderie with teammates, and the joy of scoring a goal bring immense happiness to my heart. Football is not just a game to me; it's an avenue for self-expression and a way to stay physically active. Additionally, my love for coding fuels my creative and analytical side. The ability to bring ideas to life through programming is both challenging and rewarding. And when I'm not traveling or coding, you'll often find me strumming my guitar, losing myself in the melodies and rhythms that ignite my soul. Music is my ultimate form of self-expression, and the guitar allows me to convey my emotions in ways that words cannot. Together, these passions form the foundation of my vibrant and fulfilling life.
-
-        </p>
+        <h2>Programmer</h2>
+        <p>I have a deep passion for exploring new destinations and immersing myself in different cultures, as travel is an integral part of my life. Whether it's wandering through ancient ruins or trekking in serene landscapes, the thrill of discovering the unknown fills me with exhilaration. On the other hand, the sound of a football meeting my foot, the camaraderie with teammates, and the joy of scoring a goal bring immense happiness to my heart. Football is not just a game to me; it's an avenue for self-expression and a way to stay physically active. Additionally, my love for coding fuels my creative and analytical side. The ability to bring ideas to life through programming is both challenging and rewarding. And when I'm not traveling or coding, you'll often find me strumming my guitar, losing myself in the melodies and rhythms that ignite my soul. Music is my ultimate form of self-expression, and the guitar allows me to convey my emotions in ways that words cannot. Together, these passions form the foundation of my vibrant and fulfilling life.</p>
         <a href="#" class="cta">Download Resume</a>
       </div>
     </div>
@@ -81,17 +83,16 @@
       <h2>Web design and development solution</h2>
       <div class="social-icon">
         <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="Facebook"></a>
         </div>
         <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" alt="Instagram"></a>
         </div>
-        
         <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" alt="Behance"></a>
         </div>
       </div>
-      <p>Copyright © 2022 Sudip. All rights reserved</p>
+      <p>Copyright © 2022 Sudip. All rights reserved.</p>
     </div>
   </section>
   <!-- End Footer -->
