@@ -563,14 +563,15 @@ p {
       outline: none;
       border:none;
       cursor: pointer;
-      color:#fff;
+      color: black;
       text-align: center;
-      background: #F44770;
+      background: transparent;
       box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
       transition: .5s;
+	  border-color: red;
   }
   .submit-button:hover{
-      background: #31279d;
+      background: crimson;
   }
   /* Responsive css */
   @media only screen and (max-width: 767px) {
